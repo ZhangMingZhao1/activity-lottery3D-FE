@@ -1,0 +1,122 @@
+﻿﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>抽奖</title>
+        <link rel="stylesheet" href="static/css/index.css" media="screen" type="text/css">
+    </head>
+    
+    <body>
+        <div class="container none">
+        </div>
+        <div class="mask">
+        </div>
+        <div id="stop" class="btn_circle none">
+            停止
+        </div>
+        <div class="lucky_title">
+          抽奖活动
+        </div>
+        <div class="loader_file">
+            用户数据导入中
+            <span class="current_number">
+            </span>
+            <span class="all_number">
+            </span>
+        </div>
+        <div class="lucky_list clearfix">
+            <div class="left lucky_prize">
+                <div class="lucky_prize_box">
+                    <button class="lucky_prize_left lucky_prize_direction">
+                        <</button>
+                            <div data-default="1" class="lucky_prize_picture">
+                                <img class="lucky_prize_show none" src="static/picture/bxshikc7z2mqusimhszc33czcbci3k.png"
+                                alt="一等奖笔记本" />
+                                <img class="none lucky_prize_show" src="static/picture/szsy9du21wznsdgwp9te533nted1we.png"
+                                alt="二等奖平衡车" />
+                                <img class="none lucky_prize_show" src="static/picture/glz4h2xz8xxkxlddgdd8fd2xf35kjx.png"
+                                alt="三等奖现金红包" />
+                            </div>
+                            <button class="lucky_prize_right active lucky_prize_direction">
+                                >
+                            </button>
+                </div>
+                <div class="lucky_prize_title">
+                    一等奖笔记本
+                </div>
+                <div class="lucky_setting">
+                    <span>
+                        <b class="lucky_number">
+                            998
+                        </b>
+                        人参与
+                    </span>
+                    <div class="select_box">
+                        一次抽
+                        <select name="select_lucky_number" class='select_lucky_number'>
+                            <option selected="selected" value="1">
+                                1
+                            </option>
+                            <option value="2">
+                                2
+                            </option>
+                            <option value="3">
+                                3
+                            </option>
+                            <option value="4">
+                                4
+                            </option>
+                            <option value="5">
+                                5
+                            </option>
+                            <option value="10">
+                                10
+                            </option>
+                            <option value="20">
+                                20
+                            </option>
+                            <option value="30">
+                                30
+                            </option>
+                        </select>
+                        人
+                    </div>
+                </div>
+                <div id="open" class="btn_circle btn_start">
+                    开始
+                </div>
+            </div>
+            <div class="right lucky_people_list">
+                <div class="lucky_people_title">
+                    中奖名单
+                </div>
+                <div class="lpl_list clearfix none">
+                    <!--<div class="lpl_userInfo">-->
+                    <!--<img class="lpl_userImage" src="static/picture/7fc3eb5e761d4e248f83f067bfb36c33.gif"-->
+                    <!--alt=""/>
+                    -->
+                    <!--<p class="lpl_userName">小木姐姐</p>-->
+                    <!--</div>-->
+                </div>
+                <div class="lpl_list clearfix none">
+                </div>
+                <div class="lpl_list clearfix none">
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- <script type="text/javascript" src="static/js/protect.js"></script> -->
+    <script type="text/javascript" src="static/js/jquery-1.10.2.mins.js"></script>
+    <script type="text/javascript" src='static/js/transform.js'></script>
+    <script type="text/javascript" src='static/js/tick.js'></script>
+    <!--data为静态数据 如用ajax获取请取消输入引入-->
+    <!--抽奖动画-->
+    <script type="text/javascript" src='static/js/3d.js'></script>
+    <!--实际抽奖逻辑代码-->
+    <script type="text/javascript" src='static/js/lucky.js'></script>
+    <!-- ajax抽奖逻辑 -->
+    <!-- <script type="text/javascript" src='static/js/ajaxlucky.js'></script> -->
+    <script type="text/javascript" src="static/js/data.js"></script>
+
+</html>
